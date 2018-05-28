@@ -10,7 +10,7 @@ use humhub\models\Setting;
 <div class="panel panel-default panel-weather" id="panel-weather">
     <?= \humhub\widgets\PanelMenu::widget(['id' => 'panel-weather']); ?>
   <div class="panel-heading">
-    <?= '<strong>Weather</strong>' ?>
+    <?= Yii::t("WeatherModule.base", "<strong>Weather</strong>") ?>
   </div>
   <div class="panel-body">
 
